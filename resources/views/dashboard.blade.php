@@ -1099,7 +1099,7 @@
                     <div class="px-6 pt-6 pb-4">
                         <h3 class="text-xl font-bold text-white mb-4 text-center">New folder</h3>
                         <input type="text" name="name" required
-                            class="w-full border-white/10 rounded-xl focus:border-primary-500 focus:ring focus:ring-primary-200 px-4 py-3"
+                            class="w-full bg-white/5 border-white/10 rounded-xl text-white placeholder-gray-500 focus:border-primary-500 focus:ring focus:ring-primary-500/20 px-4 py-3"
                             placeholder="Untitled folder">
                     </div>
                     <div
@@ -1136,7 +1136,7 @@
                     <div class="px-6 pt-6 pb-4">
                         <h3 class="text-xl font-bold text-white mb-4 text-center" x-text="'Rename ' + itemType"></h3>
                         <input type="text" name="name" x-model="itemName" required
-                            class="w-full border-white/10 rounded-xl focus:border-primary-500 focus:ring focus:ring-primary-200 px-4 py-3">
+                            class="w-full bg-white/5 border-white/10 rounded-xl text-white focus:border-primary-500 focus:ring focus:ring-primary-500/20 px-4 py-3">
                     </div>
                     <div
                         class="px-6 py-4 flex gap-3 justify-center sm:justify-end bg-white/5/50 border-t border-white/10">
