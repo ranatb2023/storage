@@ -2,7 +2,8 @@
     <x-slot name="header">
         <div class="flex items-center justify-between gap-4 lg:gap-8">
             <!-- Left: Logo & Title -->
-            <div class="flex items-center gap-3 w-48 lg:w-64 flex-shrink-0">
+            <div class="flex items-center gap-4 flex-shrink-0">
+                <img src="{{ asset('asset/img/trickleup-favicon.png') }}" class="h-10 w-auto drop-shadow-lg" alt="Trickle Up Logo">
                 <h2 class="font-heading font-bold text-xl lg:text-2xl text-white tracking-tight whitespace-nowrap">
                     {{ __('Trickle Up Drive') }}
                 </h2>
